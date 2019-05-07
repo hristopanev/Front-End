@@ -1,0 +1,28 @@
+html{
+    font: 16px/1.2 Helvetica, sans-serif
+}
+body{
+    font-size: inherit;
+}
+
+html{
+    box-sizing:  border-box;
+}
+*, *:before, *::after{
+    box-sizing: inherit;
+}
+
+
+.site-header {
+    border-bottom: 4px solid #333;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.site-header nav{}
+.site-header nav ul{}
+
+.site-header nav li {
+    display: inline-block;
+    color: green
+}
