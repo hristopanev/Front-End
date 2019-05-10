@@ -1,23 +1,26 @@
 
-
 body {
-    background: #EEE;
+    background: #369;
+    color: #FFF;
+}
+a {
+    color: #EEE;
 }
 
 .site-header {
-    border-bottom: 4px solid #333;
+    border-bottom: 4px solid #EEE;
     padding-bottom: 1rem;
     margin-bottom: 2rem;
 }
 
 .site-header a {
     text-decoration: none;
-    color: black;
+    color: #EEE;
 }
 
 .site-footer{
     text-decoration: none;
-    border-top: 4px solid #333;
+    border-top: 4px solid #EEE;
     padding-top: 1rem;
     margin-top: 2rem;
 }
@@ -26,10 +29,9 @@ ul.gallery img {
     display: block;
     widows: 100%;
     height: auto;
-    border: 1rem solid #000;
+    border: 1rem solid #EEE;
     padding: 0.5rem;
 }
-
 
 
 /*
@@ -40,7 +42,6 @@ ul.gallery img {
 .site-header nav a:focus,
 .site-header nav a:hover{
     /* border-color: #000; */
-    background: red;
-    color: white;
-    outline: none;
+    background: #FFF;
+    color: #000;
 }

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Blog</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="site.css">
 </head>
 
 <body>
@@ -19,11 +19,37 @@
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Fun</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="images.html">Fun</a></li>
+                    <li><a href="#">About</a>
+                        <ul>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Work</a>
+                                <ul>
+                                        <li><a href="#">Project 1</a></li>
+                                        <li><a href="#">Project 2</a>
+                                        <ul>
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#">Fun</a></li>
+                                        </ul>
+                                        </li>
+                                        <li><a href="#">Project 3</a></li>
+                                    </ul>
+                            </li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#">Contacts</a></li>
                 </ul>
             </nav>
+
+            <section class="search">
+                    <header>
+                        <h4>Search</h4>
+                    </header>
+                    <input type="search">
+                </section>
+
         </header>
         <main class="site-content">
 
@@ -51,9 +77,9 @@
                     </footer>
                 </article>
 
-                <article class="post">
+                <article class="post img">
                     <section class="image">
-                   <img src="https://images.unsplash.com/photo-1537249011554-eb008faf38c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
+                   <img src="https://images.unsplash.com/flagged/photo-1556669546-b1f29875df1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
                     </section>
                     <header>
                         <h3>Heading level 2</h3>
@@ -97,12 +123,7 @@
             </section>
 
             <aside class="main-sidebar">
-                <section>
-                    <header>
-                        <h4>Search</h4>
-                    </header>
-                    <input type="search">
-                </section>
+                
                 <section>
                     <header>
                         <h4>Latest posts</h4>
