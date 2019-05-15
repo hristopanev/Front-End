@@ -27,7 +27,7 @@ a {
 
 ul.gallery img {
     display: block;
-    widows: 100%;
+    width: 100%;
     height: auto;
     border: 1rem solid #EEE;
     padding: 0.5rem;

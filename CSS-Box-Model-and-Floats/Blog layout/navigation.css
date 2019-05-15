@@ -9,12 +9,12 @@
 
 }
 
-.site-header nav ul::after{
+/* .site-header nav ul::after{
     display: block;
     height: 0;
     content: '';
     clear: both;
-}
+} */
 
 .site-header nav li{
     display: block;
@@ -22,8 +22,12 @@
 
 }
 
+.site-header nav > ul{
+    display: flex;
+}
+
 .site-header nav > ul > li {
-    float: left;
+    /* float: left; */
 }
 
 .site-header nav > ul  ul {

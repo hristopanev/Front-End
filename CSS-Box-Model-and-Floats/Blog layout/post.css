@@ -39,3 +39,12 @@ article.post section.image img {
     position: absolute;
     top: 0; left: 0;
 }
+article.post section.content p:first-child::first-letter{
+    font-size: 4rem;
+    float: left;
+    margin-right: 0,4rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.1rem;
+    font-weight: bold;
+    font-family: PT serif, serif;
+}
