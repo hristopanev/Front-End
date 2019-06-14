@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap');
+
+  /*
+*Set border-sizing
+*/
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+/*
+*Reset whitespace
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font: 16px/1.5 Montserrat, sans-serif;
+    background: linear-gradient(rgba(132, 106, 221, 0.8), rgba(132, 106, 221, 0.8)), url('../p03/img/bg-01.jpg') no-repeat center center;
+    background-size: content;
+}
+
+
+.container{
+    background: whitesmoke;
+    width: 60%;
+    margin: 8rem auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 6rem 0;
+}
+
+.container section{
+    width: 40%;
+}
+
+input{
+    margin: 0.5rem
+    
+}
+
+input,
+textarea{
+    background: #e6e6e6;
+    border: none;
+    outline: none;
+    width: 80%;
+    font: 16px/1.5 Montserrat, sans-serif;
+    border-radius: 22px;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    font-weight: bold;
+    color: hsl(0, 0%, 64%)
+}
+textarea{
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    width: 300px; height: 135px;
+
+}
+
+form p {
+    position: relative;
+}
+
+form p::before{
+    display: block;
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    top: 15px;
+    left: 18px;
+    z-index: 200;
+    font-weight: 900;
+    color: gray;
+}
+
+.last-name::before,
+.first-name::before{
+    content: '\f007';
+}
+
+.ucl::before{
+    content: '\f02d';
+}
+
+.email::before{
+    content: '\f0e0';
+}
+input[type="submit"]{
+    padding: 0.6rem 0;
+    background: #846ADD;
+    color: azure;
+}
+
+form p:focus-within::before{
+    color: #846ADD;
+}
+
+
+
+
