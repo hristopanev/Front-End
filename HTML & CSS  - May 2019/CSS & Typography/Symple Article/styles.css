@@ -1,0 +1,10 @@
+body {
+    background: #EEE;
+    color: #333;
+    font: inherit;
+}
+
+article {
+    color: rgb(51, 51, 51);
+    padding: 0 20vw;
+}

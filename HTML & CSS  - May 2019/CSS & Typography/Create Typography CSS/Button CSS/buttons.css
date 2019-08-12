@@ -1,0 +1,44 @@
+.button,
+button {
+    display: inline-block;
+    padding: 1rem 2rem;  /*дава големина*/
+    border: 2px solid black; /*очертава около текста */
+    text-decoration: none; /* маха подчертавки  ___*/
+    font-size: 1rem;    /*големина на текста*/
+    line-height: 1;
+    color: black;   /*цват на буквите*/
+    background: transparent; /*безцветен на бутоните*/
+    border-radius: 3rem;    /*закръгляне на бутоните*/
+    cursor: pointer;        /*мишката става ръчичка върху бутона*/
+}
+
+.button.hover,
+button.hover,
+.button:hover,
+button:hover {
+    color: #090;
+    border-color: currentColor;
+    background: white;
+}
+
+.button.filled,
+button.filled {
+    background: black;
+    color: white;
+}
+
+.button.filled.hover,
+button.filled.hover,
+.button.filled:hover,
+button.filled:hover {
+    background:  #090;
+    border-color: #090;
+    color: white;
+}
+
+.button.icon i,
+button.icon i{
+
+    display: inline-block;
+    padding-right: 0.5rem;
+}

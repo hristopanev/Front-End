@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700,700i|PT+Serif:400,700,700i&display=swap');
+
+/*
+*Set border-sizing
+*/
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+/*
+*Reset whitespace
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font: 16px/1.5 PT-Sent, sans-serif;
+    background-size: content;
+}
+
+header{
+    background: #D01919;
+    color: white;
+}
+
+header nav{
+    display: flex;
+    font-size: x-small;
+    justify-content: space-between;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0.5rem 1.5rem;
+    
+}
+
+header nav ul li{
+    padding-right: 1rem;
+}
+
+.icons {
+    justify-content: flex-end;
+}
+
+.first-part{
+    background: url('./image/fitness-main.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.first-part nav {
+    text-align: -webkit-right;
+    font-size: x-small;
+    padding: 1rem 2rem;
+}
+
+.first-part nav ul{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.first-part nav ul li{
+    list-style: none;
+    color: white;
+}
+
+.first-part h1{
+    color: white;
+    text-align: center;
+    font-family: serif;
+    font-size: -webkit-xxx-large;
+    padding: 4rem 0 2rem 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 60px;
+}
+
+.first-part p{
+    color: white;
+    text-align: center;
+    width: 43%;
+    margin: 0  auto;
+}
+
+.first-part button {
+    border: none;
+    border-radius: 5px;
+    background: #D01919;
+    color: white;
+    padding: 0.5rem;
+}
+
+.button{
+    text-align: center;
+    padding: 3rem 0 5rem 0 ;
+}
+
+.middle-part h2{
+    text-align: center;
+    padding: 2rem;
+}
+
+.middle-part h2::after{
+    content: '';
+    background: #D01919;
+    padding: 0.5px;
+    width: 3%;
+    display: block;
+    margin: 0  auto;
+
+}
+
+.middle-part img{
+width: 20%
+}
+
+.table-middle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.table-middle ul {
+    padding: 1rem;
+    display: block;
+    width: 32%;
+    list-style: none;
+}
+
+.table-middle ul li {
+    padding: 0.5rem 0;
+}
+
+.color{
+    color: #D01919;
+}
+
+
+.down-part{
+    background: #EFEFEF;
+    padding: 2rem
+}
+
+.down-part h2 {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.down-part h2::after {
+    content: '';
+    background: #D01919;
+    padding: 0.5px;
+    width: 3%;
+    display: block;
+    margin: 0  auto;
+}
+
+.down-part div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.down-part div ul {
+    list-style: none;
+    width: 30%;
+    justify-content: space-between
+}
+
+.down-part img  {
+    width: 65%;
+    border-radius: 10px; 
+}
+
+span{
+    color: #D01919;
+}
+
+.down-part ul li:nth-child(4){
+    width: 100%;
+    color: #B1AAAF;
+    font-family: serif;
+    padding: 1rem;
+
+}
+
+footer{
+    background: #D01919;
+    color: black;
+    text-align: center;
+    font-family: serif;
+    padding: 0.3rem 0;
+}
+
+
+

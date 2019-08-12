@@ -1,0 +1,48 @@
+.ar-image-container{
+    background: #F00;
+    padding: 2rem;
+    overflow: hidden;                               /*оразмеряване на картинката, одрязва част от нея за да не излиза*/
+    position: relative;                 
+    border-radius: 0.5rem;                          /*закръгляне на картинката*/
+    box-shadow: 0 0 1rem 0 rgb(99, 99, 100);      /*задаване на сянка*/
+}
+
+.ar-image-container::before {
+    display: block;
+    content: '';
+    padding-top: 62.50%;
+    background: #0F0;
+}
+
+.ar-image-container img:nth-child(1){
+    /* display: none; */
+}
+
+.ar-image-container img {
+    display: block;
+    /* display: none; */
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;                         /*с top или bottom можем да контрилираме от къде да бъде отрязана картинката*/
+    left: 50%;
+    transform: translate(-50%, -50%);  /*центриране на картинката*/
+}
+
+
+.search {
+    overflow: hidden;
+}
+
+.search header {
+    float: left;
+    padding-right: 1rem;
+}
+
+.search input {
+    float: left;
+    padding: 0.5rem 1 rem;
+    background: #FFF;
+    /* border: 1px solid #DDD; */
+    border-radius: 0.1rem; 
+}

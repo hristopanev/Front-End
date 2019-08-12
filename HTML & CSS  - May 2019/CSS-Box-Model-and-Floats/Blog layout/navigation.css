@@ -1,0 +1,72 @@
+.site-header nav {
+
+}
+
+.site-header nav ul{
+/* overflow: hidden; */
+/* background: red; */
+    background: rgba(0, 0, 0, 0.5)
+
+}
+
+/* .site-header nav ul::after{
+    display: block;
+    height: 0;
+    content: '';
+    clear: both;
+} */
+
+.site-header nav li{
+    display: block;
+    position: relative;
+
+}
+
+.site-header nav > ul{
+    display: flex;
+}
+
+.site-header nav > ul > li {
+    /* float: left; */
+}
+
+.site-header nav > ul  ul {
+    display: none;
+    position: absolute;
+    width: 15rem;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+}
+
+.site-header nav > ul > li > ul > li  ul {
+    left: 100%;
+    top: 0;
+}
+
+.site-header nav li:hover{
+    /* outline: 2px solid red */
+}
+
+.site-header nav li:hover > ul {
+    display: block;
+}
+
+.site-header nav a{
+    display: block;
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+    /* border: 1px solid #999; */
+}
+
+.site-header nav li:hover > a,
+.site-header nav a:focus,
+.site-header nav a:hover{
+
+    outline: none;
+}
+.site-header nav a:focus:active,
+.site-header nav a:hover:active {
+    background: yellow;
+    color: #000;
+}

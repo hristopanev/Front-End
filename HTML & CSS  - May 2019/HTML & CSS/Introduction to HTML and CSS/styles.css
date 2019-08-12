@@ -1,0 +1,17 @@
+body {
+    background: turquoise;
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+p {
+    color: azure;
+    text-align: center;
+}
+
+strong {
+    color: black;
+}

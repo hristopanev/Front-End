@@ -1,0 +1,49 @@
+
+
+body {
+    background: #EEE;
+}
+
+.site-header {
+    border-bottom: 4px solid #333;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.site-header a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-content{
+    border-bottom: 2px solid #000;
+}
+.site-footer{
+    text-decoration: none;
+    border-top: 4px solid #333;
+    padding-top: 1rem;
+    margin-top: 2rem;
+}
+
+ul.gallery img {
+    display: block;
+    widows: 100%;
+    height: auto;
+    border: 1rem solid #000;
+    padding: 0.5rem;
+}
+
+
+
+/*
+*Navigaion
+*/
+
+.site-header nav li:hover > a,
+.site-header nav a:focus,
+.site-header nav a:hover{
+    /* border-color: #000; */
+    background: red;
+    color: white;
+    outline: none;
+}

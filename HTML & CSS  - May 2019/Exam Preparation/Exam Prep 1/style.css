@@ -1,0 +1,97 @@
+ /*
+*Set border-sizing
+*/
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+/*
+*Reset whitespace
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+div{
+    width: 80%;
+    margin: 0 auto;
+}
+
+body{
+    font: 16px/1.5 PT-Sent, sans-serif;
+    background-size: content;
+}
+
+.first-part h1{
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.first-part p{
+    padding: 0rem 2rem 1rem 2rem;
+}
+.first-part h1::after{
+    display: block;
+    content: '';
+    width: 85px;
+    height: 2px;
+    background:  #1996A9;
+}
+
+.second-part{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 2rem 2rem 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.second-part ul {
+    width: 33%;
+    list-style: none;
+    padding: 1rem 2rem 1rem 0;
+}
+
+.second-part ul li {
+    padding: 0.8rem;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+
+}
+
+.type{
+    background: black;
+    color: white;
+}
+.type2{
+    background:  #1996A9;
+    color: white;
+}
+.price{
+    background: rgb(211, 203, 203);
+}
+.description,
+.database, 
+.storage,
+.users  {
+    border-bottom: 1px dotted black;
+}
+
+button{
+    background: #1996A9;
+    color: white;
+    padding: 1rem;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+}
+.button{
+    border-bottom: 1px solid grey;
+}

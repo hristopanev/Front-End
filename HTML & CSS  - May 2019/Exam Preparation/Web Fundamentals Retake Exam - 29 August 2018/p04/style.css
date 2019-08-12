@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap');
+
+/*
+*Set border-sizing
+*/
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+/*
+*Reset whitespace
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font: 16px/1.5 PT Sans, sans-serif;
+}
+
+
+/*HEADER*/
+
+header{
+    background: #FAFAFA;
+}
+
+
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+}
+
+header nav ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 1rem 1rem 0;
+    display: block;
+}
+
+.special-li a{
+    color: #FA5B3C
+}
+
+header ul:nth-child(2) li{
+    border-right: 1px solid black;
+}
+
+
+header ul:nth-child(2) li a{
+    padding: 0 0.5rem;
+}
+
+/*MAIN*/
+
+.main-img{
+    background: url('../p04/img/residential-banner-2.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 4rem 0 5rem 0;
+}
+
+.main-img h1{
+    font-size: 42px;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+    padding-bottom: 1rem;
+}
+
+.main-img h1 span{
+    display: block;
+}
+
+.main-img p:nth-child(2) {
+    width: 25%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+.how-work{
+    padding: 2rem 0;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.how-work ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.how-work ul li {
+    width: 25%;
+}
+
+.how-work h3{
+    padding-bottom: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.how-work h4{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.how-work .number{
+    font-size: 28px;
+}
+
+/*CHERTICHKI - 1 -*/
+.how-work .number::before,
+.how-work .number::after{
+    display: inline-block;
+    contain: '';
+    width: 20px;
+    height: 2px;
+    background: black;
+    color: bisque;
+    margin: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.images{
+    background: #ededed;
+    text-align: center;
+    padding: 3.5rem 0;
+}
+
+footer{
+    background: black;
+    color: grey;
+}
+
+.footer-container{
+    padding: 2rem;
+    width: 72%;
+    margin: 0 auto;    
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container section{
+    width: 30%;
+
+}
+
+.footer-container section:nth-child(1){
+    display: flex;
+    border-bottom: 1px solid grey;
+    padding-bottom: 4rem;
+}
+
+.footer-container section:nth-child(1) ul{
+    width: 27%;
+    text-align: center;
+}
+.footer-container section:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-section p{
+    text-align: center;
+}
+
+.email-section input{
+    display: block;
+    border: none;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    margin-top: 1.5rem
+}
+
+.email-section button{
+    background: #FA5B3C;
+    color: white;
+    padding: 0.5rem 0.8rem;
+    margin-top: 0.4rem;
+    border: none;
+}
+
+footer p {
+    text-align: center;
+    padding-bottom: 1rem;
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,500i,700,700i&display=swap');
+/*
+*Set border-sizing
+*/
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+/*
+*Reset whitespace
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font: 16px/1.5 Ubuntu, sans-serif;
+    background-size: content;
+    padding: 6rem 0;
+}
+
+.page-box{
+    background: linear-gradient(rgba(8, 3, 97, 0.7), rgba(30, 3, 94, 0.7)), url('./images/image.jpg') no-repeat center center;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    background-size: cover;
+    display: flex;
+    padding: 4rem;
+    /* background-image: radial-gradient(circle, #324f7c, #324f7c, #324f7c, #324f7c, #324f7c); */
+}
+ul{
+    margin:  0 auto;
+    list-style: none;
+}
+
+.icons{
+    color: #EC8421;
+    font-size: 40px;
+}
+
+ul li:nth-child(2){
+    font-family: fantasy;
+    font-size: x-large;
+}
+
+ul li:nth-child(2),
+ul li:nth-child(3){
+    color: white;
+}
+p{
+    position: absolute;
+    right: 250px;
+    top: 105px;
+    color: white;
+    font-size: 25px;
+}
+

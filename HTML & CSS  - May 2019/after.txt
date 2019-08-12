@@ -1,0 +1,9 @@
+    content: '';
+    position: absolute;
+    margin: auto;
+    right: 0;
+    bottom: -30px;
+    left: 0;
+    width: 10%;
+    height: 1px;
+    background-color: red;

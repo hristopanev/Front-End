@@ -1,0 +1,103 @@
+  /*
+*Set border-sizing
+*/
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+/*
+*Reset whitespace
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url('../p01/images/background.png');
+}
+
+.page-box{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5rem;
+    
+}
+
+
+.image img{
+    border-radius: 22px; 
+    width: 100%
+}
+
+.menu{
+    font-size: x-large;
+}
+
+
+.menu ul{
+    justify-content: space-between;
+    width: 50%;
+    display: ruby-text;
+    margin: 3rem;
+}
+
+.menu li{
+    list-style: none;
+    width: 100%;
+}
+
+
+.menu li:nth-child(2){
+    color: #FFDD01;
+}
+
+.menu li:nth-child(1){
+    color: grey;
+}
+
+.down{
+    display: flex;
+}
+
+.down ul{
+    display: flex;
+}
+
+.down ul li {
+    list-style: none;
+    border: 2px solid black
+
+}
+
+.down ul li p:nth-child(1){
+    display: flex;
+    width: 20%
+}
+
+.down ul li img {
+    width: 67%;
+    display: flex;
+    margin: auto;
+    padding: 0px 0px 0px 6px;
+
+}
+
+.down ul li p{
+    width: 67%;
+    margin: 3rem;
+    padding: 0px 7px 0px 1px;
+    text-align: center;
+    display: revert;
+}
+
+.box{
+    border: brown;
+}
